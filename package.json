@@ -1,0 +1,32 @@
+{
+  "name": "personal-programming",
+  "version": "1.0.0",
+  "description": "my-website",
+  "license": "ISC",
+  "author": "Steven McLeod",
+  "type": "commonjs",
+  "main": "/src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "live-server": "^1.2.2",
+    "vite": "^6.3.3"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.3",
+    "react-hook-form": "^7.55.0",
+    "react-router": "^7.4.1"
+    
+  }
+}
