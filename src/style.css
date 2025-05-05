@@ -77,3 +77,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@font-face {
+  font-family: 'PalmLeaf';
+  src: url('./src/assets/fonts/palm-leaf-font/PalmLeafDemoRegular-lg61w.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

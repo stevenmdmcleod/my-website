@@ -1,0 +1,77 @@
+@keyframes neonPulse {
+    from {
+      filter: drop-shadow(0 0 5px  #BC13FE) brightness(10);
+    }
+    to {
+      filter: drop-shadow(0 0 30px  #BC13FE) brightness(10);
+    }
+  }
+    
+    .navbar {
+        background-color: #06081d;
+        
+    }
+    
+    .navbar .container {
+        display: flex;
+        flex-direction: row;
+        
+        align-items: flex-start;
+        align-items: center;
+        border: solid 3px #00bafe;
+        width: 100%;
+        height: 8vh;
+        border-radius: 5px;
+    }
+
+    .navbar .button{
+        background-color: #00e0d8;
+        color: black;
+        font-style: oblique;
+        border: solid 2px #BC13FE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4px;
+        margin: 10px;
+        border-radius: 5px;
+        transition: background-color 0.5s ease, transform 0.2s ease;
+        overflow: hidden;
+    }
+
+    .button:hover{
+        color: white;
+        background-color: #BC13FE;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .logo-button{
+        background-color: inherit;
+        border: none;
+        margin-right: 0;
+        margin-left: 2px;
+        width: 7vh;
+        height: 7vh; /* Match the height of the navbar */
+        overflow: hidden;
+    }
+
+    .logo-button:hover{
+        background: none;
+        cursor: pointer;
+        object-fit: cover;
+        transform: scale(1.05);
+    }
+
+    .nav-logo {
+        
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        object-fit: contain;
+        display: block;
+        animation: neonPulse 3.5s ease-in-out infinite alternate;
+        animation-duration: 1s;
+       
+      }
