@@ -13,7 +13,7 @@ export default function Navbar() {
                     <img src="../house-1.png" alt="hut" className="nav-logo" />
                 </button>
                 
-                <button className="button" onClick={() => {navigate("/home")}}>Home</button>
+                
                 <button className="button" onClick={() => {navigate("/about")}}>About</button>
                 <button className="button" onClick={() => {navigate("/projects")}}>Projects</button>
                 <button className="button" onClick={() => {navigate("/resume")}}>Resume</button>

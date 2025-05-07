@@ -21,7 +21,10 @@
         
         color: white;
         background-color: #0e0f19;
-       
+    background-image: url("../future-city-1.jpg");
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
     }
     
     .home .header{
@@ -63,9 +66,6 @@
         
     }
 
-    .home #image-background{
-       
-    }
 
     
     

@@ -35,7 +35,6 @@ export default function Home() {
 
           <div className="header" >
           <h1>WELCOME TO THE FUTURE</h1>
-            <img src="../future-city-1.jpg" alt="" id="image-background"/>
           </div>
             { /*
           <Particles className="particles"
