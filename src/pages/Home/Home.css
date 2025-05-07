@@ -11,37 +11,41 @@
     font-weight: normal;
     font-style: normal;
   }
+  @keyframes car-move-forward {
+    from {
+        transform: translateX(-100vw) scaleX(-1); /* Start off the right side of the page */
+    }
+    to {
+        transform: translateX(100vw) scaleX(-1); /* Move to the left side of the page */
+    }
+}
+@keyframes car-move-backward {
+    from {
+        transform: translateX(100vw); /* Start off the right side of the page */
+    }
+    to {
+        transform: translateX(-100vw); /* Move to the left side of the page */
+    }
+}
   
     .home{
         width: 100%;
         height: 100vh;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         
         color: white;
         background-color: #0e0f19;
-    background-image: url("../future-city-1.jpg");
-    background-size: cover; /* Ensure the image covers the entire container */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    }
-    
-    .home .header{
-        width: 100%;
-        
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        flex-direction: column;
-       
-        background-color: #0e0f19;
-
-    }
+        background-image: url("../future-city-1.jpg");
+        background-size: cover; /* Ensure the image covers the entire container */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+    } 
 
     .home .header h1{
         font-family: 'CyberBlast', sans-serif;
-        position: fixed;
+        
         font-size: 3em;
         line-height: 1.1;
         margin-top: 5vh;
@@ -56,7 +60,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 100vh;
+        height: 30vh;
         
     }
     .home .home-content{
@@ -64,6 +68,70 @@
         width: 100%;
         height: 100vh;
         
+    }
+
+    .home .car-container {
+        position: relative; /* Ensure cars are positioned relative to this container */
+        width: 100%;
+        height: 50vh;
+        overflow: hidden; /* Prevent cars from being visible outside the container */
+    }
+    
+    .home .car-container img {
+        position: absolute; /* Allow precise positioning */
+        width: 60px;
+        height: 60px;
+    }
+
+    .home .car-container .car-forward{
+        display: flex;
+        
+        
+        
+    }
+    .home .car-container .car-backward{
+        display: flex;
+        flex-direction: row-reverse;
+        
+        
+    }
+
+    
+
+    #car1 {
+        
+        
+        animation: car-move-forward 5s linear infinite;
+        top: 0%; /* Adjust vertical position */
+        left: -60px; /* Start off the left side of the container */
+    }
+    
+    #car2 {
+        animation: car-move-backward 6s linear infinite;
+        top: 15%; /* Adjust vertical position */
+        right: -60px; /* Start off the right side of the container */
+    }
+    
+    #car3 {
+        
+        
+        animation: car-move-forward 6s linear infinite;
+        top: 35%; /* Adjust vertical position */
+        left: -60px; /* Start off the left side of the container */
+    }
+    
+    #car4 {
+        animation: car-move-backward 7s linear infinite;
+        top: 55%; /* Adjust vertical position */
+        right: -60px; /* Start off the right side of the container */
+    }
+
+    #car5 {
+        
+        
+        animation: car-move-forward 8s linear infinite;
+        top: 80%; /* Adjust vertical position */
+        left: -60px; /* Start off the left side of the container */
     }
 
 

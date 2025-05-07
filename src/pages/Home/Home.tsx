@@ -55,6 +55,30 @@ export default function Home() {
             */}
         </div>
       </div>
+
+            <div className="car-container">
+
+                <div className="car-forward">
+                    <img src="../src/assets/flyingcar-1.png" alt="" className="car" id="car1" />
+                </div>
+
+                <div className="car-backward">
+                <img src="../src/assets/flyingcar-1.png" alt="" className="car" id="car2"/>
+                </div>
+
+                <div className="car-forward">
+                <img src="../src/assets/flyingcar-1.png" alt="" className="car" id="car3"/>
+                </div>
+
+                <div className="car-backward">
+                <img src="../src/assets/flyingcar-1.png" alt="" className="car" id="car4"/>
+                </div>
+
+                <div className="car-forward">
+                <img src="../src/assets/flyingcar-1.png" alt="" className="car" id="car5"/>
+                </div>
+
+            </div>
     </div>
   );
 }

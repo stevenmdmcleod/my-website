@@ -18,6 +18,8 @@ export default function About() {
                     <a href="https://github.com/stevenmdmcleod" target="_blank" rel="noopener noreferrer">Visit my Github</a>
                     <br />
                     <a href="https://www.linkedin.com/in/steven-mcleod/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn</a>
+                    <br />
+                    <a href="mailto:stevenmdmcleod@gmail.com" target="_blank" rel="noopener noreferrer">Email Me</a>
                     </u>
             </div>
         </div>

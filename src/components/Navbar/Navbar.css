@@ -72,6 +72,6 @@
         object-fit: contain;
         display: block;
         animation: neonPulse 3.5s ease-in-out infinite alternate;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
        
       }
