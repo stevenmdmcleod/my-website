@@ -1,13 +1,13 @@
 import "./Home.css";
 import React from "react";
-import { loadFireflyPreset } from "tsparticles-preset-firefly";
-import Particles from "react-tsparticles";
-import { Engine } from "@tsparticles/engine";
-import confetti from "canvas-confetti";
+//import { loadFireflyPreset } from "tsparticles-preset-firefly";
+//import Particles from "react-tsparticles";
+//import { Engine } from "@tsparticles/engine";
+//import confetti from "canvas-confetti";
 
 export default function Home() {
 
-    const particlesInit = async (engine: Engine | any) => {
+    /*const particlesInit = async (engine: Engine | any) => {
         await loadFireflyPreset(engine);
       };
 
@@ -21,7 +21,7 @@ export default function Home() {
       },
       colors: ["#ffcc00", "#ff6600", "#ffffff"],
     });
-  };
+  };*/
 
   return (
     
@@ -30,8 +30,8 @@ export default function Home() {
       <div className="container">
       
         <div className="home-content"
-          onClick={handleClick}>
-            
+          //onClick={handleClick}>
+            >{/* Uncomment this line to enable confetti on click */}
 
           <div className="header" >
           <h1>WELCOME TO THE FUTURE</h1>

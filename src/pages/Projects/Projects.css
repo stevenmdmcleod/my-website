@@ -1,3 +1,4 @@
+
 .projects-page {
     width: 100%;
     height: 100vh;
@@ -23,6 +24,47 @@
 }
 
 .projects-page .projects-container {
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    line-height: 1.1;
+    margin-top: 5vh;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+    justify-content: space-evenly;
+}
+
+.projects-page .projects-container .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50vh;
+    margin: 2vh;
+    background-color: rgba(6, 8, 29, .8);
+    padding: 1em;
+    border-radius: 10px;
+}
+.projects-page .projects-container .project-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.projects-page .projects-container .project-card a{
+    font-family: 'CyberBlast', sans-serif;
+    font-size: x-large;
+    color: white;
+}
+.projects-page .projects-container .project-card a:hover{
+    color: cyan;
+}
+
+.projects-page h1{
     font-family: 'CyberBlast', sans-serif;
     font-size: 3em;
     line-height: 1.1;
@@ -32,3 +74,18 @@
     margin-inline: auto;
     width: fit-content;
 }
+
+.projects-page h2{
+    font-family: 'CyberBlast', sans-serif;
+    font-size: 1em;
+    
+}
+
+
+.projects-page p{
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color: white;
+    font-size: medium;
+    
+}
+
