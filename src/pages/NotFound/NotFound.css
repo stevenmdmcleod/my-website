@@ -86,3 +86,29 @@
         border-radius: 5px;
         
     }
+
+    @media (max-width: 600px) {
+        .not-found-page {
+            background-size: contain; /* Ensure background image scales properly */
+            background-position: center top; /* Adjust background positioning */
+        }
+    
+        .not-found-page .container {
+            width: 80%; /* Increase container width for mobile */
+            font-size: 1.5em; /* Smaller font size on mobile */
+            height: auto; /* Adjust container height for mobile */
+            padding: 2em 1em; /* Add padding for better spacing */
+            margin-top: 10vh; /* Increase top margin for better spacing */
+        }
+    
+        .not-found-page .not-found-button {
+            font-size: 1.2em; /* Make button font size larger on mobile */
+            padding: 8px 16px; /* Adjust padding for mobile buttons */
+        }
+    
+        .not-found-image {
+            max-width: 80%; /* Make image smaller on mobile */
+            height: auto;
+            margin-top: 2em; /* Add space between the image and the text */
+        }
+    }

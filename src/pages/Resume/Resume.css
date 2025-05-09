@@ -25,3 +25,22 @@
         width: 100%;
         height: 100vh;
     }
+
+    @media (max-width: 600px) {
+        .resume-page {
+            background-size: contain; /* Ensure background image fits better on mobile */
+            background-position: center top; /* Adjust background positioning */
+        }
+    
+        .resume-page .container {
+            flex-direction: column; /* Switch to column layout on mobile */
+            width: 90%; /* Increase container width for mobile */
+            padding: 1em; /* Add padding for better spacing */
+        }
+    
+        .resume-page .resume {
+            width: 100%;
+            height: auto; /* Adjust height to auto on mobile */
+            margin-top: 2em; /* Add some space at the top */
+        }
+    }

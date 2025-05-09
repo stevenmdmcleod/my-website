@@ -28,9 +28,43 @@
     }
 }
   
+
+@media (max-width: 600px) {
+    .home .car-container {
+        height: 30vh; /* Reduce the container height for mobile */
+    }
+
+    .home .car-container img {
+        width: 40px; /* Make cars smaller on mobile */
+        height: 40px;
+    }
+
+    #car1, #car2, #car3, #car4, #car5 {
+        /* Optionally adjust car speed or starting positions for mobile */
+        animation-duration: 5s; /* You may want to tweak the speed if necessary */
+    }
+}
+
+@media (max-width: 600px) {
+    .home {
+        background-size: contain; /* Adjust the image scaling on mobile */
+        background-position: center top; /* Adjust positioning for smaller screens */
+    }
+}
+@media (max-width: 600px) {
+    .home .container {
+        height: auto; /* Allow the container height to adjust */
+        margin-top: 5vh; /* Adjust margin for better spacing on mobile */
+    }
+}
+@media (max-width: 600px) {
+    .home .header h1 {
+        font-size: 2em; /* Make the font smaller on mobile */
+    }
+}
     .home{
         width: 100%;
-        height: 100vh;
+        height: 100vh ;
         display: flex;
         flex-direction: column;
         align-items: center;

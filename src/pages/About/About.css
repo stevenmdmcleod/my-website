@@ -6,6 +6,30 @@
   }
 
 
+  /* Mobile Adjustments */
+@media (max-width: 600px) {
+    .about-page {
+        background-size: contain; /* Adjust background size on mobile */
+        background-position: center top; /* Ensure the background is positioned well */
+    }
+
+    .about-page .container {
+        width: 90%; /* Increase container width for mobile */
+        margin-top: 5vh; /* Adjust margin for better spacing on mobile */
+        padding: 1.5em; /* Add some space around the content */
+    }
+
+    #about-header {
+        font-size: 2em; /* Reduce header font size on mobile */
+        margin-bottom: 1em; /* Add some space below the header */
+    }
+
+    .about-page p {
+        font-size: 1em; /* Make the paragraph text smaller */
+        padding: 0 1em; /* Add some padding to the sides */
+    }
+}
+
 .about-page{
     color: white;
     display: flex;
@@ -26,7 +50,8 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    height: 35vh;
+    height: 35vh auto;
+    
     background-color: rgba(6, 8, 29, .8);
     padding: 1em;
     border-radius: 10px;
