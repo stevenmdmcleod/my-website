@@ -9,10 +9,10 @@ export default function About() {
             <div className="container">
                 <h1 id="about-header">About Me</h1>
                 
-                <p>My name is Steven McLeod and I am a software engineer with a passion for development. I have worked with many different technologies ranging from backend to frontend 
-                    and even Unity for game development.</p>
-                <p>I am currently working as a fullstack developer utilizing technologies 
-                    such as NodeJS, ExpressJS, TypeScript, React, and AWS services.</p>
+                <p className="main-paragraph">My name is Steven McLeod and I am a software engineer with a passion for development. I have worked with many different technologies ranging from backend to frontend 
+                    and even Unity for game development. I am currently working as a fullstack developer utilizing technologies 
+                    such as NodeJS, TypeScript, React, and AWS services.
+                    </p>
                     <p>Below are some of my links:</p>
                     <u>
                     <a href="https://github.com/stevenmdmcleod" target="_blank" rel="noopener noreferrer">Visit my Github</a>

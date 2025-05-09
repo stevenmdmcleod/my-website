@@ -65,6 +65,11 @@
     
 }
 
+
+.about-page .main-paragraph{
+    text-indent: 2em;
+}
+
 .about-page p{
     color: white;
     
