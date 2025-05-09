@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'CyberBlast';
-    src: url('./src/assets/fonts/cyber-blast-font/CyberBlast-JpK2o.otf') format('opentype');
+    src: url('/assets/fonts/cyber-blast-font/CyberBlast-JpK2o.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }

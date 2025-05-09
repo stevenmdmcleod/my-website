@@ -12,7 +12,7 @@ export default function Projects() {
                     <div className="project-card" >
                         
                         <h2>My Movie List</h2>
-                        <img src="../src/assets/project-pictures/my-movie-list.png" alt="" className="project-image" />
+                        <img src="/assets/project-pictures/my-movie-list.png" alt="" className="project-image" />
                         <p>My-Movie-List is a web application that allows users to share and collaborate on movie "watchlists"
                             with their friends. Users can create, edit, and delete watchlists, as well as add movies to them.
                             The application is built using React, Node.js, and DynamoDB, and is designed to be user-friendly and responsive.
@@ -24,7 +24,7 @@ export default function Projects() {
                     <div className="project-card" >
                         
                         <h2>Cyber Surfer</h2>
-                        <img src="../src/assets/project-pictures/cyber-surfer.png" alt="" className="project-image" />
+                        <img src="/assets/project-pictures/cyber-surfer.png" alt="" className="project-image" />
                         <p>Cyber Surfer is a virtual reality game developed using Unity and C# which allows users to race through
                             different tracks in a futuristic city. The game features multiple courses, power-ups, and obstacles to navigate.
                         </p>

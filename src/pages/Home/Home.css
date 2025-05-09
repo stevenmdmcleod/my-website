@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'PalmLeaf';
-    src: url('./src/assets/fonts/palm-leaf-font/PalmLeafDemoRegular-lg61w.ttf') format('truetype');
+    src: url('/assets/fonts/palm-leaf-font/PalmLeafDemoRegular-lg61w.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'CyberBlast';
-    src: url('./src/assets/fonts/cyber-blast-font/CyberBlast-JpK2o.otf') format('opentype');
+    src: url('/assets/fonts/cyber-blast-font/CyberBlast-JpK2o.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }

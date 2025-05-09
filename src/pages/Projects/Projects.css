@@ -1,4 +1,11 @@
 
+@font-face {
+    font-family: 'CyberBlast';
+    src: url('/assets/fonts/cyber-blast-font/CyberBlast-JpK2o.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .projects-page {
     width: 100%;
     height: 100vh;
