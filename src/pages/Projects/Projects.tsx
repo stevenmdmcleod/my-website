@@ -18,7 +18,7 @@ export default function Projects() {
                             The application is built using React, Node.js, and DynamoDB, and is designed to be user-friendly and responsive.
                         </p>
                         
-                    <a href="http://production-my-movie-list-frontend.s3-website.us-east-2.amazonaws.com/" target="_blank" rel="noopener noreferrer">Checkout My Movie List!</a>
+                    <a href="http://production-my-movie-list-frontend.s3-website.us-east-2.amazonaws.com/" target="_blank" rel="noopener noreferrer">Check out My Movie List!</a>
                     
                     </div>
                     <div className="project-card" >
@@ -29,7 +29,7 @@ export default function Projects() {
                             different tracks in a futuristic city. The game features multiple courses, power-ups, and obstacles to navigate.
                         </p>
                               
-                    <a href="https://www.youtube.com/watch?v=XW7V31jU0dI&list=PL3--S1vfTH7Fyork0qQuOXZk98Ifr_GOW&index=12" target="_blank" rel="noopener noreferrer">Checkout Cyber Surfer!</a>
+                    <a href="https://www.youtube.com/watch?v=XW7V31jU0dI&list=PL3--S1vfTH7Fyork0qQuOXZk98Ifr_GOW&index=12" target="_blank" rel="noopener noreferrer">Check out Cyber Surfer!</a>
                     
                     </div>
                     
