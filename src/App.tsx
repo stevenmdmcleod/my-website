@@ -1,11 +1,11 @@
-import React from 'react';
+//import React from 'react';
 import Home from './pages/Home/Home';
 import Resume from './pages/Resume/Resume';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import NotFound from './pages/NotFound/NotFound';
 import "./App.css";
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 
 
