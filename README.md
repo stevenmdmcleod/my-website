@@ -1,2 +1,2 @@
-# Vue 3 + TypeScript + Vite
+# React + TypeScript + Vite
 My personal website
