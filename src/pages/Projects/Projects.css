@@ -29,14 +29,13 @@
     p {
         font-size: 1em;  /* Make text size smaller on mobile */
     }
+    img {
+        width: 100%;
+        height: auto;
+      }
 }
 
-@media (max-width: 600px) {
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
+
 
 @font-face {
     font-family: 'CyberBlast';

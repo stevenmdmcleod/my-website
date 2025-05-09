@@ -27,20 +27,32 @@
     }
 
     @media (max-width: 600px) {
+        /* Adjust background image */
         .resume-page {
-            background-size: contain; /* Ensure background image fits better on mobile */
-            background-position: center top; /* Adjust background positioning */
+            background-size: cover; /* Keep it cover to fill the screen */
+            background-position: center center; /* Center the image vertically and horizontally */
+            height: auto; /* Allow height to auto-adjust based on content */
         }
     
+        /* Container adjustments for mobile */
         .resume-page .container {
             flex-direction: column; /* Switch to column layout on mobile */
-            width: 90%; /* Increase container width for mobile */
+            width: 90%; /* Adjust container width */
             padding: 1em; /* Add padding for better spacing */
         }
     
+        /* Adjust Resume section for mobile */
         .resume-page .resume {
             width: 100%;
             height: auto; /* Adjust height to auto on mobile */
             margin-top: 2em; /* Add some space at the top */
+        }
+    
+        /* Adjust iframe within the resume section */
+        .resume-page .resume iframe {
+            width: 100%; /* Ensure iframe takes up full width */
+            height: 60vh; /* Adjust iframe height */
+            border: none; /* Remove border */
+            margin-top: 2rem; /* Add spacing from the top */
         }
     }
